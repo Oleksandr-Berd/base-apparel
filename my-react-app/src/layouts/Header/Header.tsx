@@ -1,10 +1,11 @@
+import * as SC from "../LayoutsStyled"
+
 import Logo from "../../components/Logo/Logo";
 
 const Header:React.FC = () => {
-    return ( <header>
+    return ( <SC.Header>
         <Logo/>
-      
-    </header> );
+    </SC.Header> );
 }
  
 export default Header;

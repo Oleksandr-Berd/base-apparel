@@ -4,6 +4,6 @@ export const theme = {
         pink:"#ee8b8b",
         brown:"#ce9898",
         black:"#423a3a",
-        grad:"#f8bfbf #ee8b8b linier"
+        grad:"to bottom, #f8bfbf, #ee8b8b"
     }
 }
