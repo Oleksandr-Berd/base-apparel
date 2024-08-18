@@ -1,13 +1,12 @@
 import { ReactNode } from "react";
+import * as SC from "../LayoutsStyled";
 
 type LayoutProps = {
-    children:ReactNode
-}
+  children: ReactNode;
+};
 
-const SharedLayout:React.FC<LayoutProps> = ({children}) => {
-    return ( <div>
-{children}
-    </div> );
-}
- 
+const SharedLayout: React.FC<LayoutProps> = ({ children }) => {
+  return <SC.SharedLayoutStyled>{children}</SC.SharedLayoutStyled>;
+};
+
 export default SharedLayout;
