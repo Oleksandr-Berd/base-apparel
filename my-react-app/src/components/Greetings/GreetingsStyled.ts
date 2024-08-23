@@ -11,6 +11,7 @@ export const GreetingsCon = styled.div`
   padding-left: 52px;
   padding-right: 52px;
 
+
   text-align: center;
   white-space: pre-wrap;
 
