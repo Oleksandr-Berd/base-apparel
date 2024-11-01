@@ -84,7 +84,7 @@ const [isError, setIsError] = useState<boolean>(false)
         <SC.SubmitBtn type="submit">
           <img src={nextIcon} alt="next" />
         </SC.SubmitBtn>
-        {isError ? <p>{formik.errors.mail}</p> : <></>}
+        {isError ? <SC.ErrorMessage>{formik.errors.mail}</SC.ErrorMessage> : <></>}
       </SC.FormStyled>
     </>
   );

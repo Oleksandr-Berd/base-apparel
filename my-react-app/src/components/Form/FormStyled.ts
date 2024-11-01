@@ -68,3 +68,8 @@ background: linear-gradient(${({theme}) => theme.color.grad});
 border: none;
 border-radius: 28px;
 `
+
+export const ErrorMessage = styled.p`
+
+color: red;
+`
